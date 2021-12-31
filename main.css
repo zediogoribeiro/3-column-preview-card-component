@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+    --white-p: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+    --lexend: 'Lexend Deca', sans-serif;
+    --shoulders: 'Big Shoulders Display', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 60px 20px;
+    border-radius: 5px;
+}
+
+.container section {
+    padding: 50px;
+    width: 340px;
+}
+
+.container section img {
+    width: 55px;
+}
+
+.container section h1 {
+    font-family: var(--shoulders);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--light-gray);
+    margin: 22px 0;
+    font-size: 32px;
+}
+
+.container section p {
+    color: var(--white-p);
+    font-size: 14px;
+    font-family: var(--lexend);
+    line-height: 1.6;
+    padding-right: 20px;
+}
+
+.container section a {
+    display: inline-block;
+    height: 35px;
+    width: 140px;
+    border-radius: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--light-gray);
+    font-family: var(--lexend);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container section:first-of-type {
+    background-color: var(--orange);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container section:first-of-type a {
+    color:var(--orange);
+}
+
+.container section:nth-of-type(2) {
+    background-color: var(--cyan);
+}
+
+.container section:nth-of-type(2) a {
+    color: var(--cyan);
+}
+
+.container section:last-of-type {
+    background-color: var(--dark-cyan);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container section:last-of-type a {
+    color: var(--dark-cyan);
+}
+
+.attribution {
+    display: none;
+}
