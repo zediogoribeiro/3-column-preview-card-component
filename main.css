@@ -28,10 +28,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
     margin: 60px 20px;
-    border-radius: 5px;
 }
 
 .container section {
@@ -106,4 +103,75 @@ body {
 
 .attribution {
     display: none;
+}
+
+@media (min-width: 1020px) {
+
+    .body {
+        align-items: center;
+        padding-top: 110px;
+    }
+
+    .container {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .container section {
+        padding: 47px;
+        max-width: calc(920px / 3);
+        height: 496px;
+    }
+
+    .container section img {
+        width: 63px;
+    }
+
+    .container section h1 {
+        margin: 31px 0 27px;
+        font-size: 39px;
+    }
+
+    .container section p {
+        font-size: 15px;
+        padding-right: 0;
+        line-height: 1.6;
+    }
+
+    .container section:first-of-type p {
+        padding-right: 13px;
+    }
+
+    .container section:nth-of-type(2) p {
+        padding-right: 1px;
+    }
+
+    .container section a {
+        height: 48px;
+        width: 146px;
+        font-size: 15px;
+        margin-top: 85px;
+    }
+
+    body .container section a {
+        border: 2px solid var(--light-gray);
+    }
+
+    .container section:first-of-type {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+
+    .container section:last-of-type {
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+
+    body .container section a:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: var(--light-gray);
+    }   
 }
