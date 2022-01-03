@@ -48,5 +48,5 @@ The importance of starting with the mobile version. It makes the process much si
 
 ## Author
 
-- Linkedin - [https://www.linkedin.com/in/zediogoribeiro/]
+- [Linkedin](https://www.linkedin.com/in/zediogoribeiro/)
 
