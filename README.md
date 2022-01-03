@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-nH8hF3irw)
 - [Live Site URL](https://zediogoribeiro.github.io/3-column-preview-card-component/)
 
 ## My process
