@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-- [DesktopLayout:](screenshots/desktopVersion.png)
-- [MobileLayout:](screenshots/mobileVersion.png)
+- [DesktopLayout](screenshots/desktopVersion.png)
+- [MobileLayout](screenshots/mobileVersion.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [GitHub Page](https://zediogoribeiro.github.io/3-column-preview-card-component/)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://zediogoribeiro.github.io/3-column-preview-card-component/)
 
 ## My process
 
